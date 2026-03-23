@@ -1,2 +1,3 @@
-public/*
-**/.history.hugo_build.lock
+public/
+**/.history
+.hugo_build.lock
