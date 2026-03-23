@@ -1,0 +1,8 @@
+<div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <div class="container">
+    <a href="{{ "/" | absLangURL }}" class="navbar-brand">{{ .Site.Title | upper }}</a>
+    <ul class="navbar-nav ml-auto">
+      {{ partial "allLanguages.html" . }}
+    </ul>
+  </div>
+</div>
