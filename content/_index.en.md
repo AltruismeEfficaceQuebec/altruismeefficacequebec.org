@@ -1,0 +1,12 @@
+---
+aliases:
+  - /en/contact/
+  - /en/effective-altruism/
+  - /en/faq/
+  - /en/get-involved/
+  - /en/key-terms/
+  - /en/organizations/
+  - /en/projects/
+  - /en/reading-material/
+  - /en/team/
+---
