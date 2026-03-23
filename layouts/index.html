@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="{{ .Lang }}">
+<head>
+  <title>{{ .Site.Title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:url" content="https://altruismeefficacequebec.org/" />
+  <meta property="og:title" content="Altruisme Efficace Québec" />
+  <meta property="og:description" content="2018–2026" />
+  <meta property="og:image" content="https://altruismeefficacequebec.org/img/eaqc.jpg" />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://altruismeefficacequebec.org/favicon.ico" />
+  {{ hugo.Generator }}
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Libre Franklin', sans-serif;
+      font-weight: 300;
+      font-size: 16.5px;
+      line-height: 1.7;
+      color: #333;
+      background: #fff;
+    }
+    a { color: #4a7c8a; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .page {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 3em 1.5em 2em;
+    }
+    .lang-switch {
+      text-align: right;
+      font-size: 13px;
+      color: #999;
+      margin-bottom: 2em;
+    }
+    .lang-switch a { color: #999; }
+    .lang-switch a:hover { color: #333; }
+    .lang-switch .active { color: #333; font-weight: 400; }
+    .header {
+      text-align: center;
+      margin-bottom: 2.5em;
+    }
+    .header img {
+      width: 80px;
+      height: auto;
+      margin-bottom: 0.8em;
+    }
+    .header h1 {
+      font-size: 1.4em;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.2em;
+    }
+    .header .years {
+      font-size: 0.95em;
+      color: #888;
+    }
+    .lead {
+      text-align: center;
+      font-size: 0.95em;
+      color: #666;
+      margin-bottom: 2em;
+    }
+    h2 {
+      font-size: 0.85em;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #888;
+      margin: 2em 0 0.6em;
+    }
+    p { margin-bottom: 0.8em; }
+    ul {
+      margin: 0.4em 0 0.8em 1.2em;
+    }
+    li { margin-bottom: 0.3em; }
+    .footer {
+      margin-top: 3em;
+      padding-top: 1.5em;
+      border-top: 1px solid #eee;
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+<div class="page">
+
+  <div class="lang-switch">
+    {{ if eq .Lang "fr" }}
+      <span class="active">fr</span> · <a href="/en">en</a>
+    {{ else }}
+      <a href="/">fr</a> · <span class="active">en</span>
+    {{ end }}
+  </div>
+
+  <div class="header">
+    <img src="{{ .Site.BaseURL }}img/ea_logo.png" alt="Altruisme Efficace Québec" />
+    <h1>Altruisme Efficace Québec</h1>
+    <div class="years">2018–2026</div>
+  </div>
+
+  {{ if eq .Lang "fr" }}
+
+  <p class="lead">Altruisme Efficace Québec a été dissoute en 2026 après huit années d'activité.</p>
+
+  <h2>Historique</h2>
+  <p>Fondée en 2018, AEQ était un organisme à but non lucratif québécois voué à la promotion de l'altruisme efficace. L'organisme a :</p>
+  <ul>
+    <li>Organisé des événements à Montréal et à Québec (présentations, groupes de lecture, ateliers, rencontres sociales)</li>
+    <li>Facilité des dons philanthropiques en accompagnant des donateurs dans l'identification d'interventions à fort impact</li>
+    <li>Soutenu des groupes étudiants et des projets communautaires</li>
+    <li>Contribué à la localisation en français de ressources sur l'altruisme efficace</li>
+  </ul>
+
+  <h2>Équipe et remerciements</h2>
+  <p>AEQ a été co-fondée par <strong><a href="http://matiroy.com/">Mati Roy</a></strong> et <strong><a href="https://orpheuslummis.info/">Orphée Lummis</a></strong>, puis administrée par <strong>Sophie Pelland</strong>, <strong>Keven Bisson</strong> et Orphée.</p>
+  <p>Merci à <a href="https://www.linkedin.com/in/nogaaharony/">Noga Aharony</a>, Gabriel Yahya Haage, Jordon Bell, Simon Giasson, et à tous les présentateurs, bénévoles et participants.</p>
+  <p>Merci au <a href="https://www.centreforeffectivealtruism.org/">Centre for Effective Altruism</a> et au <a href="https://rtcharity.org/lean/">Local Effective Altruism Network</a> pour leur soutien.</p>
+
+  <h2>Ressources</h2>
+  <ul>
+    <li><a href="https://www.effectivealtruism.org/">effectivealtruism.org</a></li>
+    <li><a href="https://www.givingwhatwecan.org/">Giving What We Can</a></li>
+    <li><a href="https://80000hours.org/">80,000 Hours</a></li>
+    <li><a href="https://www.givewell.org/">GiveWell</a></li>
+  </ul>
+
+  {{ else }}
+
+  <p class="lead">Effective Altruism Québec was dissolved in 2026 after eight years of activity.</p>
+
+  <h2>History</h2>
+  <p>Founded in 2018, AEQ was a Québec-based non-profit dedicated to promoting effective altruism. The organization:</p>
+  <ul>
+    <li>Organized events in Montréal and Québec City (talks, reading groups, workshops, social meetups)</li>
+    <li>Facilitated philanthropic donations by guiding donors toward high-impact interventions</li>
+    <li>Supported student groups and community projects</li>
+    <li>Contributed to the localization of effective altruism resources in French</li>
+  </ul>
+
+  <h2>Team and acknowledgements</h2>
+  <p>AEQ was co-founded by <strong><a href="http://matiroy.com/">Mati Roy</a></strong> and <strong><a href="https://orpheuslummis.info/">Orpheus Lummis</a></strong>, then administered by <strong>Sophie Pelland</strong>, <strong>Keven Bisson</strong>, and Orpheus.</p>
+  <p>Thanks to <a href="https://www.linkedin.com/in/nogaaharony/">Noga Aharony</a>, Gabriel Yahya Haage, Jordon Bell, Simon Giasson, and all the speakers, volunteers, and participants.</p>
+  <p>Thanks to the <a href="https://www.centreforeffectivealtruism.org/">Centre for Effective Altruism</a> and the <a href="https://rtcharity.org/lean/">Local Effective Altruism Network</a> for their support.</p>
+
+  <h2>Resources</h2>
+  <ul>
+    <li><a href="https://www.effectivealtruism.org/">effectivealtruism.org</a></li>
+    <li><a href="https://www.givingwhatwecan.org/">Giving What We Can</a></li>
+    <li><a href="https://80000hours.org/">80,000 Hours</a></li>
+    <li><a href="https://www.givewell.org/">GiveWell</a></li>
+  </ul>
+
+  {{ end }}
+
+  <div class="footer">
+    © 2018–2026 Altruisme Efficace Québec
+  </div>
+
+</div>
+
+</body>
+</html>

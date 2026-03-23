@@ -14,7 +14,7 @@ languageCode = "en"
 
 [Languages.en.general]
 fullTitle = "Effective Altruism Québec"
-strapline = "Helping you do good better"
+strapline = "2018–2026"
 
 [Languages.en.groupinfo]
 legalOrgName = "Effective Altruism Québec"
@@ -86,7 +86,7 @@ weight = 1
 
 [Languages.fr.general]
 fullTitle = "Altruisme Efficace Québec"
-strapline = "Vous aide à faire le bien, mieux"
+strapline = "2018–2026"
 
 [Languages.fr.groupinfo]
 legalOrgName = "Altruisme Efficace Québec"
